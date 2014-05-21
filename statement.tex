@@ -1,0 +1,101 @@
+\documentclass[11pt]{article}
+\usepackage{times}
+\thispagestyle{empty}
+\begin{document}
+
+\section*{Research Statement}
+Clusters of workstations are rapidly emerging as cost-effective solutions for 
+delivering high performance for many scientific applications. In these 
+architectures, not only do the multiple CPUs provide for the processing 
+parallelism, the multiple disks on each workstation can provide for the much 
+needed storage-level parallelism for data access and transfer. Parallel file 
+systems seek to harness the storage capacities and bandwidths of all the disks of a cluster 
+and hide the I/O bottlenecks from such applications. 
+
+My research interests have largely focused on caching and consistency
+algorithms for parallel file-systems especially in the context of high-performance
+scientific computing applications. With little or no information about the workloads to be supported,
+traditional approaches to file-system designs have always adopted
+a one-glove-fits-all approach in dealing with caching and consistency semantics.
+Contrary to the conventional wisdom of separating mechanisms and policies for system
+design, parallel file-systems impose caching policies and consistency semantics for all applications. 
+Taking an inflexible stance on caching or consistency can demote throughput, latency and scalability
+for such applications. My research addresses this important
+problem of separating mechanisms and policies for caching and consistency policies
+and using application-level access pattern information to exploit these mechanisms for efficient
+performance. In many instances, such access pattern information can be automatically
+gleaned by a compiler or inferred by the runtime system (middleware libraries) and in some
+cases the onus is on application designers or system administrators to make use
+of the mechanisms for better performance and scalability. 
+
+While the parallelism 
+offered by the numerous disks of the cluster can alleviate the I/O bandwidth 
+problem, it does not really address the latency issue that is largely limited 
+by seek, rotational and network transfer costs. Caching data blocks in main 
+memory is a well-known way of reducing I/O latencies, provided we can achieve 
+good hit rates. I/O caching is typically done in software, and the overheads 
+of cache lookup and maintenance could become quite high. Further, we may need 
+multiple levels of such caches to reduce capacity misses for such large 
+data-sets. On such systems, the cost of going to the upper levels of the cache 
+and not finding the data there (before going to disk) might be quite 
+substantial. Consequently, it becomes important to intelligently determine what
+blocks to place in caches and when to avoid or bypass the caches whose lookup 
+costs are significantly higher on I/O requests. However, this largely depends 
+on the application's data access patterns and hence we need compiler-based/static 
+and runtime techniques that automatically try to identify frequently 
+used blocks and place them on caches that are closer to the client nodes.
+A detailed description and evaluation of our prototype ``discretionary caching'' system
+built atop a popularly used parallel file-system (PVFS) on Linux clusters
+was published in IEEE Cluster 2002 and IEEE/ACM CCGrid 2003.
+
+High-bandwidth I/O continues to play a critical role
+in the performance of numerous scientific applications that manipulate
+large data sets.
+With little or no information about the
+workloads to be supported, a file system designer has to often make
+a hard choice regarding the consistency policies which can affect performance
+adversely in some situations.
+Leaving the choice and granularity 
+of consistency policies to the user at open/mount time provides an
+attractive way of providing the best of all worlds. The level of sharing when 
+viewed at a file granularity in parallel computing
+environments is much higher than that observed in network file 
+systems, making consistency more important.
+Enforcement of such consistency can, however, conflict with performance
+and scalability goals. To address some of these deficiencies, I designed and
+implemented a file-store, CAPFS (Content
+Addressable Parallel File System), that
+allows the user to define consistency semantic policies at runtime.
+A client-side plug-in architecture based on user-written plug-ins 
+leaves the choice of consistency policies to the end-user. A detailed description
+of our prototype system was published in USENIX FAST 2005.
+
+Based on the above research that I have done so far, I see several interesting
+directions that I would like to pursue. Parallel file-systems have long been the vehicle
+for delivering the much needed performance due to their simplicity of interfaces,
+setup and management. Although POSIX has been the standard of choice that most
+disk-based file-systems adher to, it is becoming increasingly apparent that
+it may not be appropriate from a performance standpoint in a parallel file-system environment. 
+I have been involved with a working group that is advocating augmentations to the POSIX
+interfaces and standards that would allow implementors more leeway in exploiting performance.
+However, performance is not the sole criterion for enabling many of these mission critical applications.
+For instance, the vast amounts of data generated by many scientific experiments needs to be analyzed, interpreted,
+documented in order to create and extract knowledge bases that can be used for meaningful comparisons
+of results. Further, these knowledge bases may need to be archived, annotated and made accessible
+to the scientific community.Consequently, new mechanisms, interfaces are needed in the parallel
+file-system to manage this data throughout its life-cycle. 
+
+My research work has involved a good amount of survey and 
+analysis of existing solutions for problems, improvements and/or a better 
+solution, a detailed understanding of pros and cons of the improvements, and 
+technology transfer of the results into usable products. Towards this goal, 
+my work uses several implementation techniques to improve the 
+performance of today's large-scale scientific applications by improving cache 
+hit rates or reducing page-faults/cache misses, and leveraging weaker
+consistency policies. This in turn has led to a good overall understanding
+of the various components constituting the high-performance I/O software
+stack. My collaboration with researchers at Argonne 
+National Laboratory have also helped me get a hands-on perspective of various problems
+and solutions involved in these techniques. It has helped pave a thorough 
+groundwork for my future research and I expect to make the most out of it. 
+\end{document}

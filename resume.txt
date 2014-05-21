@@ -1,0 +1,183 @@
+Murali N. Vilayannur
+
+9700 S Cass Avenue, D-239                 Phone: 630-252-7198(O)
+Building 221, 
+Argonne National Laboratory,
+Argonne, IL 60517
+
+7351 S Woodward Avenue, Apt 307 				Phone: 630-748-0057(H)
+Woodridge, IL 16802     
+
+e-mail: vilayann@cse.psu.edu  URL: http://www.cse.psu.edu/~vilayann/
+Citizenship: India, Visa : F-1 on an EAD work permit
+______________________________________________________________________________________________
+
+Research Interests :
+
+High performance Input/Output storage systems, File systems,
+Compilers and programming languages, Operating Systems internals,
+Data structures and algorithms for I/O.
+
+Education :
+
+Postdoctoral Staff													Jul 2005 - present
+Mathematics and Computer Science Division 					
+Argonne National Laboratory, Argonne, IL, USA
+Supervised: Dr. Rajeev Thakur & Dr. Robert Ross
+
+PhD in Computer Science & Engineering							Aug 1999 - Aug 2005
+Department of Computer Science & Engineering	  				GPA: 3.87/4.0
+Pennsylvania State University, State College, PA, USA
+Advisers: Dr. Anand Sivasubramaniam & Dr. Mahmut Kandemir
+
+Bachelor of Technology 											 	May 1995 - Jul 1999
+Department of Computer Science & Engineering					GPA: 9.59/10.0
+Institute of Technology, BHU (IT-BHU), Varanasi, India
+
+Experience :
+
+Postdoctoral Staff													Jul 2005 - present
+Research Aide, Mathematics & Computer Sciences Division, May 2004 - Aug 2004
+Argonne National Laboratory, Argonne, IL 60439.				Jun 2002 - Dec 2002
+
+	-  As part of an ongoing research effort, I am 
+	investigating performance trade-offs due to 
+	aggressive file system caching and consistency
+	semantics dictated by application needs and looking
+	at meaningful ways of expressing consistency 
+	requirements that can be exploited by the underlying
+	parallel file system (CAPFS, PVFS2). 
+	-  Explored techniques to enhance the performance 
+	and isolate potential bottlenecks in the POSIX I/O 
+	interface implementation of a parallel file system 
+	(PVFS). 
+
+
+Research Assistant in Computer Systems Lab 					May 2001 - Present 
+CSE Dept, Penn State, University Park, PA 16802				May 2000 - Aug 2000 
+
+	-  As part of my thesis research, I investigated 
+	run-time system support for effective buffer management 
+	of large-scale scientific applications. More specifically,
+	I looked at efficient caching and replacement 
+	algorithms for explicitly I/O intensive and scaled versions 
+	of in-core applications.
+	
+Teaching Assistant 													Aug 2000 - May 2001 
+CSE Dept, Penn State, University Park, PA 16802				Aug 1999 - May 2000 
+
+	- Graded and evaluated project assignments for both 
+	  graduate and undergraduate level courses on operating 
+	  systems design.
+
+	- Instructed a sophomore level course on Digital Logic 
+	  design and a freshman level course on programming in
+	  C++.
+
+Publications :
+
+ Murali Vilayannur, Anand Sivasubramaniam, Mahmut Kandemir. Anticipatory
+ Memory Management for Scientific Applications: A Characterization, 
+ In submission to IEEE Transactions on Computers.
+
+ Murali Vilayannur, Mahmut Kandemir, Anand Sivasubramaniam.
+ Synergistic Scheduling for Memory-intensive Applications,
+ In submission.
+
+ Murali Vilayannur, Partho Nath, Anand Sivasubramaniam.
+ Providing Tunable Consistency for a Parallel File Store,
+ Proceedings of the Fourth USENIX Conference on File and Storage Technologies,
+ FAST'05.
+
+ Murali Vilayannur, Anand Sivasubramaniam, Mahmut Kandemir. Pro-active Page 
+ Replacement Algorithm for Scientific Applications: A Characterization, 
+ To appear in the 2005 IEEE International Symposium on Performance Analysis 
+ of Systems and Software, ISPASS'05.
+
+ Murali Vilayannur, Robert Ross, Philip Carns, Rajeev Thakur,
+ Anand Sivasubramaniam, Mahmut Kandemir. On the Performance of the POSIX I/O
+ interface to PVFS, Proceedings of the 12th Euromicro Workshop on Parallel, 
+ Distributed, and Network-Based Processing, PDP 2004.
+
+ Murali Vilayannur, Anand Sivasubramaniam, Mahmut Kandemir, Rajeev Thakur, 
+ Robert Ross. Discretionary Caching for I/O on clusters, To appear in Cluster 
+ Computing: The Journal of Networks, Software Tools and Applications.
+
+ Murali Vilayannur, Anand Sivasubramaniam, Mahmut Kandemir, Rajeev Thakur,
+ Robert Ross. Discretionary Caching for I/O on clusters, Proceedings of the
+ IEEE/ACM International Conference on Cluster Computing and Grid, CCGrid 2003.
+
+ Murali Vilayannur, Mahmut Kandemir, Anand Sivasubramaniam. Kernel-level 
+ Caching for I/O by exploiting Inter-Application Data Sharing, Proceedings of 
+ the IEEE International Conference on Cluster Computing, CLUSTER 2002.
+   
+ K. K. Shukla, R. K. Biswal, V. N. Murali, D. Venkatesh, R. N. Mukherjee. 
+ On Some New Improved Algorithms for Digital Watermarking, Proceedings of the 
+ 4th International Conference on Advances in Pattern Recognition and Digital 
+ Techniques, ICAPRDT 1999.
+
+Course work :
+
+Operating Systems design, Optimizing Compilers, Database Management Systems, 
+Multiprocessor Architectures, Design and Analysis of Algorithms, Digital Systems 
+Design, Component-Based Software Engineering, Distributed Systems, Science of 
+Computer Programming, Computer Networks, Combinatorial Optimization.
+
+Projects :
+
+ 	+ Designed and implemented a Relational Database Management System (as a 
+	  group project) with distributed resource managers that supported 2-Phase 
+	  locking, transactions and log-based crash recovery as part of a graduate
+	  level course in Database design(C).
+	
+	+ Designed and implemented a User-level Threads Library package for Solaris 
+	  using kernel-aware entities (LWP's), similar to the Pthreads/Solaris thread 
+	  library interface as part of a graduate level course on Operating Systems(C).
+
+   + Implemented a Remote Procedure Call Mechanism similar to the Sun RPC package 
+	  using the Pthreads library and sockets API on Solaris as part of a graduate 
+	  level course on Operating Systems(C).
+
+   + Developed an execution-driven simulator that simulates a cc-NUMA machine's
+	  (SGI-Origin) memory system that can be used to investigate the performance 
+	  of parallel applications as part of a graduate level course on Multiprocessor 
+	  architectures(C).
+
+   + Designed and implemented new algorithms for demonstrating Steganography, 
+	  i.e. hiding text in images (as a group project) as part of an under-graduate 
+	  thesis project(Visual C++).
+
+   + Implemented a type-inference engine for an extension of lambda calculus for 
+	  a graduate level course on logic programming(Lambda Prolog).
+
+Professional Activities :
+
+	- Program Committee Member ICPADS 2006, CLUSTER 2006.
+	- Reviewer for ICPP 2000, CAC Workshop 2002, CASES 2002, CLUSTER 2002,
+	  CLUSTER 2003, HiPC 2003, ICPADS 2004, IEEE-TPDS 2004, ACSAC 2004, 
+	  HPCA 2004, IEEE Transactions on Computers, HPCA (2004, 2005, 2006), ICDCS 2006.
+	- Member of IEEE & ACM.
+
+Honors/Awards :
+
+	- Best Research Assistant Award, Department of Computer Science and Engineering, 2005.
+	- University Gold Medal for 1st rank in Undergraduate Computer Science batch of
+	  1999 at IT-BHU.
+	- Recipient of the prestigious J.N.Tata Endowment for Higher Education of Indians. 
+	- Received University Merit award for academic excellence in 1996,1998,1999.
+	- Ranked in the top 1% of over 0.1 million candidates who appeared for the Joint 
+	  Entrance Examination for admission to the IIT's and IT-BHU, India,
+
+Computer Skills :
+
+	* Programming Languages - C, C++, Java, Pascal, Prolog, SML, Sparc Assembly
+	* Operating Systems and Platforms - Unix (Linux, Solaris), Proficient with Linux
+	  kernel internals.
+	* Hardware - Sparc, Intel X86 
+	* Other Tools - GNUPLOT, MPI, MPI-IO, SUIF, CSIM, MATLAB, Lex, Yacc.
+
+References :
+
+	- Dr. Anand Sivasubramaniam (anand@cse.psu.edu).
+	- Dr. Mahmut Kandemir (kandemir@cse.psu.edu).
+	- Dr. Rajeev Thakur (thakur@mcs.anl.gov).

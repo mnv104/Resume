@@ -1,0 +1,136 @@
+\documetstyle[tmes]{artcle}
+\pagestyle{empty}
+
+\beg{documet}
+\ttle{\fbox{\bf Isttute of Techology:Baaras Hdu Uversty}}
+\author{Uoffcal Trascrpt \\ of \\{\bf Vlayaur Mural}\\{\em Bachelor of Techology,Computer Scece \& Egeerg}\\ {\bf (vlaya@csepsuedu)}}
+\date{ July 995 - Jue 999}
+\makettle
+{\fbox 
+{\em Summary}\\
+Cumulatve Grade Pot Average:{\bf 959/000}\\
+Passed BTech wth Frst class hoours}
+\beg{table}[htbp]
+\ceterg
+\capto{Gradg Key}
+\beg{tabular*}[]{|l|r|}\hle
+Letter Grade & Pots \\ \hle
+A & 0 \\ \hle
+B & 8  \\ \hle
+C &   \\ \hle
+D & 4  \\ \hle
+P & 3  \\ \hle
+F & 0  \\ \hle
+\ed{tabular*}
+\ed{table}
+
+{\fbox {\em Note:}Letter grades are dcated  brackets after course amesThe table does ot dcate grades for labsA offcal copy cludes grades for these as well}\\
+
+\beg{table}[htbp]
+\ceterg
+\capto{Semester }
+\beg{tabular*}[]{|l|r|}\hle
+Courses & SGPA \\ \hle
+Appled Maths I(A)\\
+Appled Physcs I(A)\\
+Appled Chemstry I(A)\\
+Egeerg Mechacs(B)\\
+Techcal Wrtg(B) & 87/00 \\ \hle
+\ed{tabular*}
+\ed{table}
+
+\beg{table}[htbp]
+\ceterg
+\capto{Semester }
+\beg{tabular*}[]{|l|r|}\hle
+Courses & SGPA \\ \hle
+Appled Maths II(A)\\
+Appled Physcs II(A)\\
+Appled Chemstry II(A)\\
+Itroducto to Fortra(B)\\
+Thermodyamcs(A) & 93/00 \\ \hle
+
+\ed{tabular*}
+\ed{table}
+
+
+\beg{table}[htbp]
+\ceterg
+\capto{Semester 3}
+\beg{tabular*}[]{|l|r|} \hle
+Courses & SGPA \\ \hle
+Appled Maths III(A)\\
+Dscrete Mathematcs(A)\\
+Electrcal Devces(B)\\
+Basc Electrocs(A) & 97/00 \\ \hle
+\ed{tabular*}
+\ed{table}
+
+
+\beg{table}[htbp]
+\ceterg
+\capto{Semester 4}
+\beg{tabular*}[]{|l|r|} \hle
+Courses & SGPA \\ \hle
+Appled Maths IV(A)\\
+Computer Archtecture(B)\\
+Dgtal Logc Desg(B)\\
+Materal Scece(A)\\
+Data Structures(A) & 93/00 \\ \hle
+\ed{tabular*}
+\ed{table}
+
+
+\beg{table}[htbp]
+\ceterg
+\capto{Semester 5}
+\beg{tabular*}[]{|l|r|} \hle
+Courses & SGPA \\ \hle
+Operatg systems(A)\\
+Advaced Archtecture(A)\\
+Desg\& Aalyss of Algorthms(A)\\
+Programmg laguages(A)\\
+Theory of Computato(A) & 00/00 \\ \hle
+\ed{tabular*}
+\ed{table}
+
+\beg{table}[htbp]
+\ceterg
+\capto{Semester }
+\beg{tabular*}[]{|l|r|} \hle
+Courses & SGPA \\ \hle
+Compler Costructo(A)\\
+Parallel Archtectures \& Algorthms(A)\\
+Software Egeerg(A)\\
+Cotrol Systems(B)\\
+Data Networks(A) & 97/00 \\ \hle
+\ed{tabular*}
+\ed{table}
+
+
+\beg{table}[htbp]
+\ceterg
+\capto{Semester 7}
+\beg{tabular*}[]{|l|r|} \hle
+Courses & SGPA \\ \hle
+Operatos Research(A)\\
+Artfcal Itellgece(A)\\
+Neural Networks(A)\\
+Database systems(B) & 97/00 \\ \hle
+\ed{tabular*}
+\ed{table}
+
+
+\beg{table}[htbp]
+\ceterg
+\capto{Semester 8}
+\beg{tabular*}[]{|l|r|} \hle
+Courses & SGPA \\ \hle
+Computer Graphcs(A)\\
+Udergraduate project\\
+Lambda Calculus(A) & 00/00 \\ \hle
+\ed{tabular*}
+\ed{table}
+
+
+\ed{documet}

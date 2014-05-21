@@ -1,0 +1,42 @@
+% resume.sty
+% 23 May 87
+% modified to have variable label width (resumelabel) ga$gac 6 Mar 89
+% Copyright (c) 1987 by Stephen Gildea
+% Permission to copy all or part of this work is granted, provided
+% that the copies are not made or distributed for resale, and that
+% the copyright notice and this notice are retained.
+\topmargin 0pt
+\headheight 0pt
+\headsep 0pt
+\textheight 9in
+\pagestyle{empty}
+\parindent 0pt
+\parskip \baselineskip
+\topmargin 0in
+\oddsidemargin 0in
+\evensidemargin 0in
+\textwidth 6.5in
+\setcounter{secnumdepth}{0}
+\def\name#1{{\large\centering#1\\[2\baselineskip]}}
+\def\address#1{\hbox to \hsize{\hfil\@tablebox{#1}\hfil}}
+\def\addresses#1#2{\hbox to \hsize{\@tablebox{#1}\hfil\@tablebox{#2}}}
+\def\@tablebox#1{\begin{tabular}[t]{@{}l@{}}#1\end{tabular}}
+\newbox\@title
+\newlength{\resumelabel}
+\setlength{\resumelabel}{1in}
+\newenvironment{llist}{\begin{list}{}{
+\setlength{\labelwidth}{\resumelabel}
+\setlength\leftmargin{\labelwidth}\addtolength
+ \leftmargin{\labelsep}\itemsep 5pt plus 2pt minus 2pt
+ \parsep 10pt plus 2pt minus 2pt
+ \def\sectiontitle##1{\item[{\bf##1}]
+   \setbox\@title=\hbox{\bf##1}\ifdim
+   \wd\@title>\labelwidth \leavevmode \\ \else \fi}
+ \def\makelabel##1{##1\hfill}}}{\end{list}}
+\newenvironment{items}{\begin{list}{$\bullet$}
+  {\setlength\labelwidth{.5em}\setlength\leftmargin{1em}
+  \def\makelabel##1{##1\hfill}}}{\end{list}}
+\def\employer#1{#1}
+\def\location#1{{\unskip\nobreak\hfill\penalty50\hskip2em
+  \hbox{}\nobreak\hfill #1\finalhyphendemerits=0 \\}}
+\def\dates#1{#1\\[2pt]}

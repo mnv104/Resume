@@ -1,0 +1,251 @@
+Murali N. Vilayannur
+
+111 IST Building, 				Phone: 814-867-1533(H), 814-863-3627(O)
+University Park, PA 16802     Fax: 814-865-3176 
+e-mail: vilayann@cse.psu.edu  URL: http://www.cse.psu.edu/~vilayann/
+Citizenship: India, Visa : F-1
+______________________________________________________________________________________________
+
+Research Interests :
+
+High performance Input/Output storage systems, File systems,
+Compilers and programming languages, Operating Systems internals,
+Data structures and algorithms for I/O.
+
+Education :
+
+PhD candidate 															Aug 1999 - present
+Department of Computer Science & Engineering	  				GPA: 3.87/4.0
+Pennsylvania State University, State College, PA, USA
+Advisors: Dr. Anand Sivasubramaniam & Dr. Mahmut Kandemir
+
+Bachelor of Technology 											 	May 1995 - Jul 1999
+Department of Computer Science & Engineering					GPA: 9.59/10.0
+Institute of Technology, BHU, Varanasi, India
+
+Experience :
+
+Research Aide, Mathematics & Computer Sciences Division, May 2004 - Aug 2004
+Argonne National Laboratory, Argonne, IL 60439.				Jun 2002 - Dec 2002
+
+	-  As part of an ongoing research effort, I am 
+	investigating performance trade-offs due to 
+	aggressive file system caching and consistency
+	semantics dictated by application needs and looking
+	at meaningful ways of expressing consistency 
+	requirements that can be exploited by the underlying
+	parallel file system (CAPFS, PVFS2). 
+	-  Explored techniques to enhance the performance 
+	and isolate potential bottlenecks in the POSIX I/O 
+	interface implementation of a parallel file system 
+	(PVFS). 
+
+
+Research Assistant in Computer Systems Lab 					May 2001 - Present 
+CSE Dept, Penn State, University Park, PA 16802				May 2000 - Aug 2000 
+
+	-  As part of my thesis research, I investigated 
+	run-time system support for effective buffer management 
+	of large-scale scientific applications. More specifically,
+	I have been looking at efficient caching and replacement 
+	algorithms for explicitly I/O intensive and scaled versions 
+	of in-core applications.
+	
+Teaching Assistant 													Aug 2000 - May 2001 
+CSE Dept, Penn State, University Park, PA 16802				Aug 1999 - May 2000 
+
+	- Graded and evaluated project assignments for both 
+	  graduate and undergraduate level courses on operating 
+	  systems design.
+
+	- Instructed a sophomore level course on Digital Logic 
+	  design and a freshman level course on programming in
+	  C++.
+
+Publications :
+
+ Murali Vilayannur, Partho Nath. CAPFS: On the Design of a Lock-less,
+ Sequentially Consistent Parallel File Store, In submission. 
+
+ Murali Vilayannur, Anand Sivasubramaniam, Mahmut Kandemir. Pro-active Page 
+ Replacement Algorithm for Scientific Applications: A Characterization, 
+ To appear in the 2005 IEEE International Symposium on Performance Analysis 
+ of Systems and Software, ISPASS 2005.
+
+ Murali Vilayannur, Robert Ross, Philip Carns, Rajeev Thakur,
+ Anand Sivasubramaniam, Mahmut Kandemir. On the Performance of the POSIX I/O
+ interface to PVFS, Proceedings of the 12th Euromicro Workshop on Parallel, 
+ Distributed, and Network-Based Processing, PDP 2004.
+
+ Murali Vilayannur, Anand Sivasubramaniam, Mahmut Kandemir, Rajeev Thakur, 
+ Robert Ross. Discretionary Caching for I/O on clusters, To appear in Cluster 
+ Computing: The Journal of Networks, Software Tools and Applications.
+
+ Murali Vilayannur, Anand Sivasubramaniam, Mahmut Kandemir, Rajeev Thakur,
+ Robert Ross. Discretionary Caching for I/O on clusters, Proceedings of the
+ IEEE/ACM International Conference on Cluster Computing and Grid, CCGrid 2003.
+
+ Murali Vilayannur, Mahmut Kandemir, Anand Sivasubramaniam. Kernel-level 
+ Caching for I/O by exploiting Inter-Application Data Sharing, Proceedings of 
+ the IEEE International Conference on Cluster Computing, CLUSTER 2002.
+   
+ K. K. Shukla, R. K. Biswal, V. N. Murali, D. Venkatesh, R. N. Mukherjee. 
+ On Some New Improved Algorithms for Digital Watermarking, Proceedings of the 
+ 4th International Conference on Advances in Pattern Recognition and Digital 
+ Techniques, ICAPRDT 1999.
+
+Course work :
+
+Operating Systems design, Optimizing Compilers, Database Management Systems, 
+Multiprocessor Architectures, Design and Analysis of Algorithms, Digital Systems 
+Design, Component-Based Software Engineering, Distributed Systems, Science of 
+Computer Programming, Computer Networks, Combinatorial Optimization.
+
+Projects :
+
+ 	+ Designed and implemented a Relational Database Management System (as a 
+	  group project) with distributed resource managers that supported 2-Phase 
+	  locking, transactions and log-based crash recovery as part of a graduate
+	  level course in Database design(C).
+	
+	+ Designed and implemented a User-level Threads Library package for Solaris 
+	  using kernel-aware entities (LWP's), similar to the Pthreads/Solaris thread 
+	  library interface as part of a graduate level course on Operating Systems(C).
+
+   + Implemented a Remote Procedure Call Mechanism similar to the Sun RPC package 
+	  using the Pthreads library and sockets API on Solaris as part of a graduate 
+	  level course on Operating Systems(C).
+
+   + Developed an execution-driven simulator that simulates a cc-NUMA machine's
+	  (SGI-Origin) memory system that can be used to investigate the performance 
+	  of parallel applications as part of a graduate level course on Multiprocessor 
+	  architectures(C).
+
+   + Designed and implemented new algorithms for demonstrating Steganography, 
+	  i.e. hiding text in images (as a group project) as part of an under-graduate 
+	  thesis project(Visual C++).
+
+   + Implemented a type-inference engine for an extension of lambda calculus for 
+	  a graduate level course on logic programming(Lambda Prolog).
+
+Professional Activities :
+
+	- Reviewer for ICPP 2000, CAC Workshop 2002, CASES 2002, CLUSTER 2002,
+	  CLUSTER 2003, HiPC 2003, ICPADS 2004, IEEE-TPDS 2004, ACSAC 2004, 
+	  HPCA 2004.
+	- Student member of IEEE & ACM.
+
+Honors/Awards :
+
+	- University Gold Medal for 1st rank in Undergraduate Computer Science batch of
+	  1999 at IT-BHU.
+	- Recipient of the prestigious J.N.Tata Endowment for Higher Education of Indians. 
+	- Received University Merit award for academic excellence in 1996,1998,1999.
+	- Ranked in the top 1% of over 0.1 million candidates who appeared for the Joint 
+	  Entrance Examination for admission to the IIT's and IT-BHU, India,
+
+Computer Skills :
+
+	* Programming Languages - C, C++, Java, Pascal, Prolog, SML, Sparc Assembly
+	* Operating Systems and Platforms - Unix (Linux, Solaris), Proficient with Linux
+	  kernel internals.
+	* Hardware - Sparc, Intel X86 
+	* Other Tools - GNUPLOT, MPI, MPI-IO, SUIF, CSIM, MATLAB, Lex, Yacc.
+
+References :
+
+	- Dr. Anand Sivasubramaniam.
+	- Dr. Mahmut Kandemir.
+	- Dr. Rajeev Thakur.
+	- Dr. Robert Ross.
+
+
+Research Statement :
+
+My research interests have been in the fields of Parallel File Systems
+and Virtual Memory Management algorithms in Operating Systems. In particular,
+I have focused on efficient buffer-management strategies for large-scale
+I/O intensive scientific applications to reduce their execution time overheads.
+In my thesis, I have explored efficient caching and replacement algorithms
+for programs that use explicit I/O interfaces and for scaled versions of
+in-core applications whose virtual memory footprint is larger than available
+physical memory. The underlying theme of the solutions that I have proposed
+exploits application-level access pattern characteristics that are automatically
+gleaned by the compiler or by the operating system. In the following paragraphs, 
+I will first talk about the techniques that I have developed for explicitly I/O 
+intensive applications and then focus on the optimizations for scaled in-core 
+programs.
+
+Applications that belong to this category manipulate their disk-resident
+data sets using explicit I/O interfaces (e.g. the POSIX read/write).
+Clusters of workstations are rapidly emerging as cost-effective solutions for 
+delivering high performance for such challenging applications. In these 
+architectures, not only do the multiple CPUs provide for the processing 
+parallelism, the multiple disks on each workstation can provide for the much 
+needed storage-level parallelism for data access and transfer. Parallel file 
+systems seek to harness the storage capacities of all the disks of a cluster 
+and hide the I/O bottlenecks from the applications. While the parallelism 
+offered by the numerous disks of the cluster can alleviate the I/O bandwidth 
+problem, it does not really address the latency issue that is largely limited 
+by seek, rotational and network transfer costs. Caching data blocks in main 
+memory is a well-known way of reducing I/O latencies, provided we can achieve 
+good hit rates. I/O caching is typically done in software, and the overheads 
+of cache lookup and maintenance could become quite high. Further, we may need 
+multiple levels of such caches to reduce capacity misses for such large 
+data-sets. On such systems, the cost of going to the upper levels of the cache 
+and not finding the data there (before going to disk) might be quite 
+substantial. Consequently, it becomes important to intelligently determine what
+blocks to place in caches and when to avoid or bypass the caches whose lookup 
+costs are significantly higher on I/O requests. However, this largely depends 
+on the application's data access patterns and hence I proposed compiler-based 
+techniques and runtime techniques that automatically try to identify frequently 
+used blocks and place them on caches that are closer to the client nodes. A 
+detailed description and evaluation of our techniques was published in IEEE 
+Cluster 2002 and IEEE/ACM CCGrid 2003.
+
+More recently, I have started to investigate better replacement algorithms that 
+pro-actively manages memory by evicting virtual pages earlier than a traditional 
+operating system replacement policy that is usually reactive and evicts pages only 
+under memory pressure. Large-scale in-core scientific applications typically 
+under-perform when run with the default replacement algorithm (usually a variant 
+of LRU) that are deployed on modern operating systems. It is for this reason that 
+programmers usually tend to write a separate out-of-core version of the same program.
+The goal of this work is to glean application access pattern information at run-time
+and using this as a hint for pro-active page replacement and pre-fetching. A detailed
+evaluation of this technique is going to be appear in ISPASS 2005.
+
+Based on the above research that I have done so far, I see several interesting 
+directions that I would like to pursue in the context of efficient buffer
+management, 
+
+  + Given that caching and effective buffer management could improve the 
+    performance of applications, the need to maintain a consistent view of
+	 the cached copies could degrade performance. I would like to understand 
+	 this trade-off in performance due to aggressive caching and the need to
+	 maintain coherence/consistency.
+	 
+  + It would be interesting to see if applications can quantitatively express
+    their consistency requirements using which the underlying file-system can 
+	 make caching policy decisions. 
+
+  + I would like to design and implement a versioned parallel file-system as
+    a platform to explore different consistency protocols.
+
+Towards this end, we are architecting a parallel file system (CAPFS) whose consistency
+mechanisms are generic enough to subsume a spectrum of consistency policies with minimal
+code changes.
+
+A well-rounded thesis consists of a well-motivated problem, a good survey and 
+analysis of existing solutions for that problem, improvements and/or a better 
+solution, a detailed understanding of pros and cons of the improvements, and 
+technology transfer of the results into usable products. Towards this goal, 
+my work uses several simulation and implementation techniques to improve the 
+performance of today's large-scale scientific applications by improving cache 
+hit rates and reducing page-faults/cache misses. My internships at Argonne 
+National Laboratory have helped me get a hands-on perspective of various problems
+and solutions involved in these techniques. It has helped pave a thorough 
+groundwork for my future research and I expect to make the most out of it. 
+I am currently collaborating with researchers at Argonne National Laboratory
+(Dr. Rajeev Thakur and Dr. Robert Ross) and I expect to continue this relationship 
+in future.
+

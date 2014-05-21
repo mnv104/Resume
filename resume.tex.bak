@@ -1,0 +1,366 @@
+\documentclass{article}
+\usepackage{tabularx, resume, times}
+
+% define the various dimensions
+%\setlength{\oddsidemargin}{0pt}
+%\setlength{\evensidemargin}{0pt}
+%\setlength{\topmargin}{0pt}
+%\setlength{\marginparwidth}{0pt}
+%\setlength{\headheight}{0pt}
+%\setlength{\headsep}{0pt}
+%\setlength{\textheight}{10in}
+\setlength{\textwidth}{6.3in}
+%\setlength{\parindent}{0pt}
+%\setlength{\parsep}{20pt}
+%\setlength{\footskip}{0pt}
+%\setlength{\voffset}{-0.5in}
+
+\thispagestyle{empty}
+% \pagestyle{fancy}
+
+% \lfoot{} \rfoot{} \cfoot{}
+% \lhead{} \rhead{} \chead{}
+
+\begin{document}
+  % put the name at the top
+  \Large
+  \textbf{Murali N. Vilayannur}
+  % address
+  \newline
+  %\vspace*{6pt}
+%  \vspace*{0.02truein}
+  \small
+  \begin{tabularx}{\linewidth}{XX}
+	&\\
+	4725 Denevi Drive, San Jose, CA 95130 & Phone: H: 630-748-0057 \\
+  	3401 Hillview Avenue, \#VMWare Inc., Palo Alto, CA & Phone: O: 650-427-1818 \\
+  	e-mail: murali.vilayannur\verb1@1gmail.com & Phone: C: 630-814-9052 \\
+  \end{tabularx}
+  %\noindent\rule{\textwidth}{0.4mm}
+%  \vspace*{0.01truein}
+  \hrule
+  \normalsize
+%  \vspace*{6pt}
+  
+  % Research Interests
+
+%  \vspace*{-0.1truein}
+  \large \textbf{Areas of Interests}
+  \normalsize
+  \vspace*{-0.1truein}
+  \begin{center}
+  \begin{tabularx}{6.2in}{X}
+	Virtualization technologies with special emphasis on the storage stack, high-performance
+        file-systems and data management.
+  \end{tabularx}
+  \end{center}
+
+  % Education
+\vspace*{-0.1truein}
+  \large \textbf{Education}
+  \normalsize
+  \vspace*{-0.1truein}
+  \begin{center}
+  \begin{tabularx}{6.2in}{Xr}
+%\vspace*{-0.2truein}
+	\emph {Doctor of Philosophy} & Aug 99 - Jul 05\\
+	\small
+	Computer Science \emph{\&} Engineering,& \\
+	Thesis title: Runtime Support for Effective Memory Management in Large-scale Applications,&\\
+	\textbf{Pennsylvania State University}, State College, PA, USA. &\\
+	Advisers: Dr. Anand Sivasubramaniam \emph{\&} Dr. Mahmut Kandemir & \\
+	\normalsize
+\vspace*{-0.1truein}
+	\emph {Bachelor of Technology} & May 95 - July 99\\
+	\small
+	Department of Computer Science \emph{\&} Engineering, &\\
+	\textbf{Institute of Technology - BHU}, Varanasi, India & \\
+	\normalsize
+  \end{tabularx}
+  \end{center}
+
+  % Experience
+\vspace*{-0.1truein}
+  \large \textbf{Work Experience}
+\vspace*{-0.1truein}
+
+  \begin{center}
+         \normalsize
+	\begin{tabularx}{6.2in}{Xr}
+%	\vspace*{-0.19truein}
+	\emph{Staff Engineer, } & Oct 06 - Present \\
+	\emph{Structured Data Access Group, ESX Storage} & \\
+	\emph{VMWare Inc., Palo Alto, CA} & \\
+%	\vspace*{-2pt}
+	\begin{itemize}
+	\small
+        \item {Technical lead for a soon to be released space-efficient storage footprint solution for 
+               Virtual Desktop product.}
+	\item {Technical lead for VMFS version 5 file system. Developed
+               several key features and scalability enhancements for VMFS over the
+               course of 4 major releases of ESX.}
+        \item {Helped design, prototype and lead several Advanced Development
+               projects (Distributed Deduplication for VMFS, Distributed data
+               movement in a cluster, Hybrid-locking and network-based locking techniques to scale VMFS
+               metadata performance, Distributed quotas and reservations for a
+               clustered file system, Exploiting direct-attached SSD devices
+               for virtual machines to name a few)}
+        \item {Worked on and enhanced almost all layers of VMware's ESX storage stack (SCSI emulation layer,
+               VMFS, block layer, buffer-cache, data mover, generic asynchronous IO
+               infrastructure, snapshot and filter drivers.}
+	\end{itemize}
+	\end{tabularx}
+	\normalsize
+	\begin{tabularx}{6.2in}{Xr}
+%	\vspace*{-0.19truein}
+	\emph{Postdoctoral Staff, Mathematics \& Computer Science Division,} & Aug 05 - Oct 06 \\
+	\emph{Research Aide, Mathematics \& Computer Sciences Division,} & May 04 - Aug 04	\\
+	\emph{Argonne National Laboratory, Argonne, IL} & Jun 02 - Dec 02 \\
+%	\vspace*{-2pt}
+	\begin{itemize}
+	\small
+        \item {Co-designed, implemented and developed two generations of a popularly used open-source parallel file-system
+           for Linux clusters (PVFS versions 1 and 2).}
+	\item {Explored, implemented and evaluated extensions to the POSIX system call interface to support the needs
+	   of high-performance parallel file systems (PVFS2) on Linux.}
+	\item {Investigated performance trade-offs due to 
+	aggressive file system caching and consistency semantics dictated by application needs and looking
+	at meaningful ways of expressing consistency requirements that can be exploited by the underlying
+	parallel file system (PVFS2, CAPFS).} 
+	\item {Prior projects in the past explored techniques to enhance the performance and isolate 
+	potential bottlenecks in the POSIX I/O 
+	interface implementation of a parallel file system (PVFS).} 
+	\end{itemize}
+	\end{tabularx}
+
+\vspace*{-0.1truein}
+	\normalsize
+	\begin{tabularx}{6.2in}{Xr}
+	\emph{Research Assistant, Computer Systems Research Lab,} & May 01 - Aug 05 \\
+	\emph{Pennsylvania State University, State College, PA}  & May 00 - Aug 00 \\
+%	\vspace*{-2pt}
+	\begin{itemize}
+	\small
+	\item {As part of my thesis research, I investigated run-time system support for effective
+	 buffer management of large-scale scientific applications. More specifically, I
+	 looked at efficient caching and replacement algorithms for explicitly I/O intensive
+	 and scaled versions of in-core applications.}
+	\end{itemize}
+	\end{tabularx}
+
+\vspace*{-0.1truein}
+  	\normalsize
+	\begin{tabularx}{6.2in}{Xr}
+	\emph{Teaching Assistant, Dept. of Computer Science \& Engineering,} & Aug 00 - May 01	\\
+	\emph{Pennsylvania State University, State College, PA} & Aug 99 - May 00 \\
+%	\vspace*{-2pt}
+	\begin{itemize}
+	\small
+	\item {Graded and evaluated project assignments for both graduate and undergraduate level courses on 
+	operating system design.}
+	\item {Instructed a sophomore level course on Digital logic design and a freshmen level course on 
+	programming in C++.}
+	\end{itemize}
+	\end{tabularx}
+
+  \end{center}
+
+\vspace*{-0.1truein}
+  \large \textbf{Invention Disclosures}
+  \small
+\vspace*{-0.2truein}
+  \begin{center}
+  \begin{itemize}
+  \item {Computer Storage Deduplication with Jinyuan Li, Irfan Ahmad and Austin Clements}
+  \item {Hybrid Locking Using Network and On-Disk Based Schemes with Jinyuan
+         Li, Mayank Rawat, and Dan Scales}
+  \item {File system introspection and Defragmentable Virtual Disk
+        format for space efficiency with Satyam Vaghani, Krishna Yadappanavar, Manjunath Rajasekar,
+        and Faraz Shaikh}
+  \item {Configuration-Less Network Locking Infrastructure for Shared
+        File Systems with Jinyuan Li and Mayank Rawat}
+  \item {Improvements to a System Automatically Optimizing capacity
+        between clusters of hosts with Irfan Ahmad, Jinyuan Li, Austin Clements and Carl Waldspurger}
+  \item {Optimistic Input/Output operations for clustered file-systems with Satyam Vaghani}
+  \item {Performing online, in-place upgrade of cluster file system with Jinyuan Li, Mayank Rawat and
+        Satyam Vaghani}
+  \item {Method and System for ensuring cache coherence of metadata in clustered file system with Satyam Vaghani and Jinyuan Li}
+  \item {Distributed Data Movement with Mayank Rawat, Jinyuan Li, and Chris Frost}
+  \item {Enforced Correct Ordering of Unmap and write commands at disk level for safe reclamation with Faraz Shaikh, Satyam Vaghani and
+         Kiran Joshi}
+  \item {AWO: Modular Analysis Layer for Storage Workloads with Ali Mashtizadeh and Ricardo Koller}
+  \end{itemize}
+  \end{center}
+
+
+
+  % Publications
+
+\vspace*{-0.1truein}
+  \large \textbf{Publications}
+  \normalsize
+%  \vspace*{-0.5735truein}  % FIXME: Change this to get proper formatting
+\vspace*{-0.1truein}
+
+  \begin{center}
+  \begin{tabularx}{6.2in}{X}
+%  \vspace*{0.01in}
+  {Philip Carns, Sam Lang, Robert Ross, {\bf Murali Vilayannur}, Julian Kunkel, Thomas Ludwig.
+     Small File Access in Parallel File Systems,
+   \emph {IEEE International Parallel and Distributed Processing Symposium,
+      IPDPS'09}}. \\
+  {Austin Clements, Irfan Ahmad, {\bf Murali Vilayannur}, Jinyuan Li.
+     Decentralized Deduplication in SAN Cluster File Systems,
+   \emph {Proceedings of the 2009 Annual USENIX Technical Conference,
+      USENIX'09}}. \\
+%  \vspace*{0.01in}
+%  \vspace*{0.01in}
+  {\bf Murali Vilayannur}, Robert Ross, Samuel Lang, Ruth Klundt, Lee Ward.
+  Extending the POSIX I/O Interface: A Parallel File System Perspective,
+  \emph {Technical report (ANL-MCS 302)}.\\
+%  \vspace*{0.01in}
+  Shiva Chaitanya and Kevin Butler and Anand Sivasubramaniam and Patrick McDaniel and {\bf Murali Vilayannur}.
+  Design, Implementation and Evaluation of Security in iSCSI-based Network Storage Systems,
+  \emph {Proceedings of the Second ACM Workshop on Storage Security and Survivability,
+  StorageSS'06}.\\
+%   \vspace*{0.01in}
+  {\bf Murali Vilayannur}, Partho Nath, Anand Sivasubramaniam.
+  Providing Tunable Consistency for a Parallel File Store,
+  \emph {Proceedings of the Fourth USENIX Conference on File and Storage Technologies,
+  FAST'05}.\\
+%   \vspace*{0.01in}
+   {\bf Murali Vilayannur}, Anand Sivasubramaniam, Mahmut Kandemir.  
+	Pro-active Page Replacement Algorithm for Scientific Applications: A Characterization, 
+	\emph {Proceedings of the 2005 IEEE International Symposium on Performance Analysis of Systems and
+	Software, ISPASS'05}. \\
+%   \vspace*{0.01in}
+   {\bf Murali Vilayannur}, Robert Ross, Philip Carns, Rajeev Thakur, Anand Sivasubramaniam,
+	Mahmut Kandemir. On the Performance of the POSIX I/O interface to PVFS,  \emph{Proceedings
+	of the 12$^{th}$ Euromicro Workshop on Parallel, Distributed, and Network-Based Processing, PDP
+	2004.} \\
+%   \vspace*{0.01in}
+	{\bf Murali Vilayannur}, Anand Sivasubramaniam, Mahmut Kandemir, Rajeev Thakur, Robert Ross.
+	Discretionary Caching for I/O on clusters, \emph{To appear in Cluster Computing: The Journal of
+	Networks, Software Tools and Applications.} \\
+%   \vspace*{0.01in}
+	{\bf Murali Vilayannur}, Anand Sivasubramaniam, Mahmut Kandemir, Rajeev Thakur, Robert Ross.
+	Discretionary Caching for I/O on clusters, \emph{Proceedings of the IEEE/ACM
+	International Conference on Cluster Computing and Grid, CCGrid 2003.} \\
+%   \vspace*{0.01in}
+   {\bf Murali Vilayannur}, Mahmut Kandemir, Anand Sivasubramaniam. 
+   Kernel-level Caching for I/O by exploiting Inter-Application Data Sharing, \emph{Proceedings of
+   the IEEE International Conference on Cluster Computing, CLUSTER 2002.} \\
+%   \vspace*{0.01in}
+   K. K. Shukla, R. K. Biswal, {\bf V. N. Murali}, D. Venkatesh, R. N. Mukherjee. 
+	On Some New Improved Algorithms for Digital Watermarking, \emph{Proceedings of the 4$^{th}$
+	International Conference on Advances in Pattern Recognition and Digital Techniques, ICAPRDT 1999.} \\
+	\end{tabularx}
+  \end{center}
+
+
+  % Course Background
+
+%  \vspace*{-0.1truein}
+%  \large \textbf{Course work}
+%  \vspace*{-0.2truein}
+%  \normalsize
+%  \begin{center}
+%  \begin{tabularx}{6.2in}{X}
+%        Operating Systems Design, Optimizing Compilers, Database Management Systems, Multiprocessor Architectures, Design and Analysis of Algorithms, Digital Systems Design, Component-Based Software Engineering, Distributed Systems, Science of Computer Programming, Computer Networks, Combinatorial Optimization. \\
+%  \end{tabularx}
+%  \end{center}
+
+  % Projects
+
+%  \vspace*{-0.1truein}
+%  \large \textbf{Projects}
+%  \vspace*{-0.2truein}
+%  \normalsize
+%  \begin{center}
+%  \begin{itemize} 
+%  \item {Designed and implemented a Relational Database Management System (as a group project)
+%  			with distributed resource managers that supported 2-Phase locking, transactions and 
+%			log-based crash recovery as part of a course project(C).
+%		  }
+%  \item {Designed and implemented a User-level Threads Library package for Solaris using kernel-aware 
+%  		   entities (LWP's), similar to the Pthreads/Solaris thread library interface as part of a
+%			graduate level course on Operating Systems(C).
+%		  }
+%  \item {Implemented a Remote Procedure Call Mechanism similar to the Sun RPC package using the 
+%  			Pthreads library and sockets API on Solaris as part of a graduate level course on 
+%			Operating Systems(C).
+%		  }
+%  \item {Developed an execution-driven simulator that simulates a cc-NUMA machine's (SGI-Origin)
+%  			memory system that can be used to investigate the performance of parallel applications as 
+%			part of a graduate level course on Multiprocessor architectures(C).
+%		  }
+%  \item {Designed and implemented new algorithms for demonstrating Steganography, i.e. hiding text 
+% 		   in images (as a group project) as part of an under-graduate thesis(Visual C++).
+%		  }
+%  \item {Implemented a type-inference engine for an extension of lambda calculus for a graduate 
+%  		   level course on logic programming(Lambda Prolog).}
+%  \end{itemize}
+%  \end{center}
+%
+
+% Computer Skills
+  \vspace*{-0.1truein}
+  \large \textbf{Computer Skills}
+  \normalsize
+  \vspace*{-0.2truein}
+  \begin{center}
+  \begin{itemize}
+	\item {\textbf{Programming Languages:} -- C, C++, x86 assembly}
+%	\vspace*{-0.1truein}
+	\item {\textbf{Operating Systems and Platforms:} -- ESX, VMware workstation, Unix(Linux, Solaris), Proficient with Linux
+	kernel internals.}
+%	\vspace*{-0.1truein}
+	\item {\textbf{Hardware:} -- SPARC, Intel x86.} 
+%	\vspace*{-0.1truein}
+	\item {\textbf{Other Tools:} -- MPI, MPI-IO, SUIF, CSIM, MATLAB, Lex, Yacc.}
+  \end{itemize}
+  \end{center}
+
+  % Achievements and Honors
+
+\vspace*{-0.1truein}
+  \large \textbf{Honors/Awards}
+  \small
+\vspace*{-0.2truein}
+  \begin{center}
+  \begin{itemize}
+  \item {Co-authored as a Special Member on two funded NSF grants.}
+  \item {Invited to the 2nd High End Computing Revitalization Task Force (HECRTF) Interagency Working Group (HECIW)
+         Workshop.}
+  \item {Best Research Assistant Award, Department of Computer Science \& Engineering, 2005}
+  \item {University Gold Medal for $1^{st}$ rank in Undergraduate Computer Science Batch of 1999 at IT-BHU.}
+  \item {Recipient of the prestigious J. N. Tata Endowment for Higher Education 1999.} 
+  \item {Received University Merit award for academic excellence in 1996, 1998, 1999 at IT-BHU.}
+  \item {Ranked in the top 1\% of over 0.1 million candidates who appeared for the Joint Entrance 
+  Examination for admission to the IIT's and IT-BHU, India.}
+  \end{itemize}
+  \end{center}
+
+
+  % Professional Activities
+
+\vspace*{-0.1truein}
+	\large \textbf{Professional Activities}
+	\small
+\vspace*{-0.2truein}
+	\begin{center}
+	\begin{itemize}
+	\item{Program Committee Member Internal Conference on Parallel and Distributed Systems (ICPADS 2006),
+           International Conference on Cluster Computing (CLUSTER 2006), 
+           International Symposium on Workload Characterization (IISWC 2007),
+           IASTED International Conference on Parallel and Distributed Computing and Networks (PDCN 2007). }
+	 \item{Reviewer for ICPP 2000, CAC Workshop 2002, CASES 2002, CLUSTER 2002, CLUSTER 2003, HiPC 2003,
+	 ICPADS 2004, IEEE-Transactions on Parallel and Distributed Systems,
+	 IEEE Transactions on Computers, ACSAC 2004, HPCA (2004, 2005, 2006), ICPP (2000, 2005),
+	 ISPASS (2005, 2006), FAST 2007, ASPLOS 2007.}
+	 \item{Member of IEEE, USENIX \emph{\&} ACM.}
+	\end{itemize}
+	\end{center}
+
+    
+\end{document}
